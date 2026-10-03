@@ -1,0 +1,29 @@
+text_id,language,text,status,approved_on,translation_status
+MT-DESC-01,en,Coronary Stent System,approved,2026-01-01,source
+MT-DESC-01,de,Koronarstentsystem,approved,2026-01-01,unverified
+MT-DESC-01,fr,Système d'endoprothèse coronaire,approved,2026-01-01,unverified
+MT-WARN-01,en,Do not expand the stent more than 0.5 mm above its nominal diameter.,approved,2026-01-01,source
+MT-WARN-01,de,"Den Stent nicht mehr als 0,5 mm über den Nenndurchmesser hinaus aufdehnen.",approved,2026-01-01,unverified
+MT-WARN-01,fr,"Ne pas dilater l'endoprothèse de plus de 0,5 mm au-delà de son diamètre nominal.",approved,2026-01-01,unverified
+MT-STOR-01,en,Store below 25 °C. Keep dry.,approved,2026-01-01,source
+MT-STOR-01,de,Unter 25 °C lagern. Trocken aufbewahren.,approved,2026-01-01,unverified
+MT-STOR-01,fr,Conserver à moins de 25 °C. Conserver au sec.,approved,2026-01-01,unverified
+MT-STER-01,en,Sterile. Sterilized using ethylene oxide.,approved,2026-01-01,source
+MT-STER-01,de,Steril. Sterilisiert mit Ethylenoxid.,approved,2026-01-01,unverified
+MT-STER-01,fr,Stérile. Stérilisé à l'oxyde d'éthylène.,approved,2026-01-01,unverified
+MT-STER-02,en,Sterile unless the package is opened or damaged. Sterilized using ethylene oxide.,approved,2026-09-20,source
+MT-STER-02,de,"Steril, solange die Verpackung nicht geöffnet oder beschädigt ist. Sterilisiert mit Ethylenoxid.",approved,2026-09-20,unverified
+MT-STER-02,fr,Stérile tant que l'emballage n'est pas ouvert ou endommagé. Stérilisé à l'oxyde d'éthylène.,approved,2026-09-20,unverified
+MT-DAMAGE-01,en,Do not use if package is damaged.,approved,2026-01-01,source
+MT-DAMAGE-01,de,Bei beschädigter Verpackung nicht verwenden.,approved,2026-01-01,unverified
+MT-DAMAGE-01,fr,Ne pas utiliser si l'emballage est endommagé.,approved,2026-01-01,unverified
+MT-REUSE-01,en,Single use only. Do not reuse.,approved,2026-01-01,source
+MT-REUSE-01,de,Nur zum Einmalgebrauch. Nicht wiederverwenden.,approved,2026-01-01,unverified
+MT-REUSE-01,fr,À usage unique. Ne pas réutiliser.,approved,2026-01-01,unverified
+MT-MR-01,en,MR Conditional. Scanning permitted at 1.5 T and 3 T under conditions in the IFU.,approved,2026-01-01,source
+MT-MR-01,de,"Bedingt MR-sicher. Untersuchung bei 1,5 T und 3 T unter den Bedingungen der Gebrauchsanweisung zulässig.",approved,2026-01-01,unverified
+MT-MR-01,fr,"Compatible IRM sous conditions. Examen autorisé à 1,5 T et 3 T selon les conditions du mode d'emploi.",approved,2026-01-01,unverified
+MT-IFU-01,en,Consult instructions for use.,approved,2026-01-01,source
+MT-IFU-01,de,Gebrauchsanweisung beachten.,approved,2026-01-01,unverified
+MT-IFU-01,fr,Consulter le mode d'emploi.,approved,2026-01-01,unverified
+MT-RX-01,en,Rx only,approved,2026-01-01,source

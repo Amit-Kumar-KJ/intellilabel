@@ -1,0 +1,34 @@
+{
+ "skus": 3,
+ "markets": 4,
+ "packaging_levels": 3,
+ "label_variants_per_revision": 36,
+ "language_panels_per_revision": 54,
+ "by_market": [
+  {
+   "market": "US",
+   "languages": 1,
+   "label_variants": 9,
+   "language_panels": 9
+  },
+  {
+   "market": "EU",
+   "languages": 3,
+   "label_variants": 9,
+   "language_panels": 27
+  },
+  {
+   "market": "JP",
+   "languages": 1,
+   "label_variants": 9,
+   "language_panels": 9
+  },
+  {
+   "market": "CN",
+   "languages": 1,
+   "label_variants": 9,
+   "language_panels": 9
+  }
+ ],
+ "note": "A single attribute change (e.g. shelf life) touches every variant that prints an expiry date."
+}

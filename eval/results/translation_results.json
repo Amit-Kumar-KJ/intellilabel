@@ -1,0 +1,33 @@
+{
+ "cases": 44,
+ "precision": 1.0,
+ "recall": 1.0,
+ "by_error_type": [
+  {
+   "error_type": "none",
+   "n": 18,
+   "correct_status": 18
+  },
+  {
+   "error_type": "glossary",
+   "n": 7,
+   "correct_status": 7
+  },
+  {
+   "error_type": "number",
+   "n": 7,
+   "correct_status": 7
+  },
+  {
+   "error_type": "negation",
+   "n": 7,
+   "correct_status": 7
+  },
+  {
+   "error_type": "missing_sentence",
+   "n": 5,
+   "correct_status": 5
+  }
+ ],
+ "note": "Seen set (Tier 1). Semantic similarity (LaBSE) is optional and off here."
+}

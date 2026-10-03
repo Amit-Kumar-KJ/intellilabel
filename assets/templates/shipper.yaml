@@ -1,0 +1,30 @@
+template_id: TPL-SHIPPER-V1
+packaging_level: shipper
+page_mm: [150, 100]
+zones:
+  - id: header
+    elements:
+      - {type: text, element: device_name, bind: {product: brand}, bbox: [6, 6, 90, 10], font_pt: 22, bold: true}
+      - {type: text, element: device_description, bind: {master_text: MT-DESC-01, language: en}, bbox: [6, 17, 90, 6], font_pt: 11}
+      - {type: text, element: device_size, bind: {derived: sku_size}, bbox: [6, 23, 90, 5], font_pt: 10}
+      - {type: text, element: quantity, bind: {derived: shipper_quantity}, bbox: [6, 30, 60, 7], font_pt: 14, bold: true}
+  - id: identity
+    elements:
+      - {type: symbol, element: ref_symbol, bind: {symbol: SYM-REF}, bbox: [100, 6]}
+      - {type: text, element: model, bind: {sku: model}, bbox: [111, 6.5, 35, 5], font_pt: 11, bold: true}
+      - {type: symbol, element: lot_symbol, bind: {symbol: SYM-LOT}, bbox: [100, 14]}
+      - {type: text, element: lot, bind: {production: lot}, bbox: [111, 14.5, 35, 5], font_pt: 11}
+      - {type: symbol, element: expiry_symbol, bind: {symbol: SYM-EXP}, bbox: [100, 22]}
+      - {type: date, element: expiry_date, bind: {derived: expiry_from_shelf_life}, bbox: [111, 22.5, 35, 5], font_pt: 11}
+      - {type: symbol, element: manufacturer_symbol, bind: {symbol: SYM-MFR}, bbox: [6, 42]}
+      - {type: text_block, element: manufacturer_name_address, bind: {manufacturer: name_address}, bbox: [14, 42, 75, 8], font_pt: 7.5}
+      - {type: symbol, element: sterilization_symbol, bind: {symbol: SYM-STE-EO}, bbox: [6, 55], include_if: "sterile=true"}
+      - {type: text_block, element: storage_statement, bind: {attribute_text: storage_text_id, language: en}, bbox: [25, 55, 60, 6], font_pt: 8}
+  - id: udi
+    elements:
+      - {type: symbol, element: udi_symbol, bind: {symbol: SYM-UDI}, bbox: [100, 40]}
+      - {type: barcode, element: udi_aidc, bind: {derived: gs1_udi_string}, bbox: [115, 38, 26, 26]}
+      - {type: text, element: udi_hri, bind: {derived: gs1_udi_hri}, bbox: [86, 68, 60, 5], font_pt: 7.5}
+  - id: footer
+    elements:
+      - {type: text, element: label_revision, bind: {label: revision}, bbox: [6, 92, 90, 4], font_pt: 6}

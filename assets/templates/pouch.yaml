@@ -1,0 +1,44 @@
+template_id: TPL-POUCH-V1
+packaging_level: pouch
+page_mm: [110, 75]
+zones:
+  - id: header
+    elements:
+      - {type: text, element: device_name, bind: {product: brand}, bbox: [4, 3, 60, 7], font_pt: 13, bold: true}
+      - {type: text, element: device_description, bind: {master_text: MT-DESC-01, language: en}, bbox: [4, 10, 60, 4], font_pt: 7}
+      - {type: text, element: device_size, bind: {derived: sku_size}, bbox: [4, 14, 60, 4], font_pt: 6.5}
+  - id: identity
+    elements:
+      - {type: symbol, element: ref_symbol, bind: {symbol: SYM-REF}, bbox: [66, 3]}
+      - {type: text, element: model, bind: {sku: model}, bbox: [77, 3.5, 30, 5], font_pt: 8, bold: true}
+      - {type: symbol, element: lot_symbol, bind: {symbol: SYM-LOT}, bbox: [66, 10]}
+      - {type: text, element: lot, bind: {production: lot}, bbox: [77, 10.5, 30, 5], font_pt: 8}
+      - {type: symbol, element: expiry_symbol, bind: {symbol: SYM-EXP}, bbox: [66, 17]}
+      - {type: date, element: expiry_date, bind: {derived: expiry_from_shelf_life}, bbox: [77, 17.5, 30, 5], font_pt: 8}
+      - {type: symbol, element: manufacturer_symbol, bind: {symbol: SYM-MFR}, bbox: [4, 19]}
+      - {type: text_block, element: manufacturer_name_address, bind: {manufacturer: name_address}, bbox: [12, 19, 50, 7], font_pt: 5.5}
+      - {type: symbol, element: authorised_rep_symbol, bind: {symbol: SYM-ECREP}, bbox: [4, 27], include_if: "market=EU;manufacturer_outside_eu=true"}
+      - {type: text_block, element: authorised_rep, bind: {manufacturer: eu_auth_rep}, bbox: [19, 27, 43, 7], font_pt: 5.5, include_if: "market=EU;manufacturer_outside_eu=true"}
+  - id: symbols
+    elements:
+      - {type: symbol, element: sterilization_symbol, bind: {symbol: SYM-STE-EO}, bbox: [4, 36], include_if: "sterile=true"}
+      - {type: symbol, element: single_use_indication, bind: {symbol: SYM-NOREUSE}, bbox: [22, 36], include_if: "single_use=true"}
+      - {type: symbol, element: damaged_package_symbol, bind: {symbol: SYM-DAMAGED}, bbox: [30, 36], include_if: "sterile=true"}
+      - {type: symbol, element: md_symbol, bind: {symbol: SYM-MD}, bbox: [38, 36], include_if: "requirement=REQ-EU-030;market=EU"}
+      - {type: text, element: rx_statement, bind: {master_text: MT-RX-01, language: en}, bbox: [39, 37, 18, 5], font_pt: 8, bold: true, include_if: "market=US;rx=true"}
+  - id: udi
+    elements:
+      - {type: symbol, element: udi_symbol, bind: {symbol: SYM-UDI}, bbox: [66, 26]}
+      - {type: barcode, element: udi_aidc, bind: {derived: gs1_udi_string}, bbox: [87, 25, 17, 17]}
+      - {type: text, element: udi_hri, bind: {derived: gs1_udi_hri}, bbox: [60, 43, 48, 4], font_pt: 5.5}
+  - id: languages
+    type: language_panels
+    box: [4, 48, 102, 22]
+    font_pt: 5.2
+    blocks:
+      - {element: sterile_indication, bind: {attribute_text: sterilization_text_id}, include_if: "sterile=true"}
+      - {element: damaged_package_warning, bind: {master_text: MT-DAMAGE-01}, include_if: "sterile=true"}
+      - {element: single_use_text, bind: {master_text: MT-REUSE-01}, include_if: "single_use=true"}
+  - id: footer
+    elements:
+      - {type: text, element: label_revision, bind: {label: revision}, bbox: [4, 71, 80, 3], font_pt: 4.5}

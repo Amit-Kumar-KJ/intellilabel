@@ -1,0 +1,44 @@
+{
+ "dc24bb4efa7c0452:a38c7be9bf1e996e6397cbba": {
+  "output": {
+   "source": "product",
+   "reason": "Stability study supports 36-month shelf life; sterilization wording updated to MT-STER-02",
+   "changes": [
+    {
+     "scope": {
+      "product": "P-CS"
+     },
+     "key": "shelf_life_months",
+     "old": "24",
+     "new": "36"
+    },
+    {
+     "scope": {
+      "product": "P-CS"
+     },
+     "key": "sterilization_text_id",
+     "old": "MT-STER-01",
+     "new": "MT-STER-02"
+    }
+   ]
+  },
+  "origin": "hand-written demo fixture"
+ },
+ "dc24bb4efa7c0452:5bef6d938ce1e2e082fd106e": {
+  "output": {
+   "source": "product",
+   "reason": "Extend shelf life to 36 months",
+   "changes": [
+    {
+     "scope": {
+      "product": "P-CS"
+     },
+     "key": "shelf_life_months",
+     "old": "24",
+     "new": "36"
+    }
+   ]
+  },
+  "origin": "hand-written demo fixture"
+ }
+}

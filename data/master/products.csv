@@ -1,0 +1,2 @@
+product_id,name,brand,manufacturer_id,device_class_us,device_class_eu,sterile,implantable,single_use,rx,mr_status,ifu_required,notified_body
+P-CS,Coronary Stent System,CardioSafe,M-01,III,III,true,true,true,true,MR Conditional,true,9876

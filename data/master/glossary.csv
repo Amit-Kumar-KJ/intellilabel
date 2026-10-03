@@ -1,0 +1,31 @@
+term_id,language,approved_term,forbidden_variants,status
+G-STERILE,en,Sterile,,source
+G-STERILE,de,Steril,Keimfrei,unverified
+G-STERILE,fr,Stérile,Stérilisé et propre,unverified
+G-EO,en,ethylene oxide,EtO gas,source
+G-EO,de,Ethylenoxid,Äthylenoxid|EO-Gas,unverified
+G-EO,fr,oxyde d'éthylène,oxyde d'ethylene|gaz EO,unverified
+G-REUSE,en,Do not reuse,Do not re-use|Not reusable,source
+G-REUSE,de,Nicht wiederverwenden,Nicht wiederverwerten|Nicht erneut benutzen,unverified
+G-REUSE,fr,Ne pas réutiliser,Ne pas reutiliser|Ne pas réemployer,unverified
+G-SINGLEUSE,en,Single use,Disposable,source
+G-SINGLEUSE,de,Einmalgebrauch,Wegwerfprodukt|Einwegartikel,unverified
+G-SINGLEUSE,fr,usage unique,jetable,unverified
+G-IFU,en,instructions for use,user manual|operating instructions,source
+G-IFU,de,Gebrauchsanweisung,Bedienungsanleitung|Benutzerhandbuch,unverified
+G-IFU,fr,mode d'emploi,notice d'utilisation|manuel utilisateur,unverified
+G-DAMAGED,en,damaged,broken|defective,source
+G-DAMAGED,de,beschädigt,defekt|kaputt,unverified
+G-DAMAGED,fr,endommagé,abîmé|cassé,unverified
+G-PACKAGE,en,package,box|wrapper,source
+G-PACKAGE,de,Verpackung,Packung|Schachtel,unverified
+G-PACKAGE,fr,emballage,boîte|paquet,unverified
+G-MRCOND,en,MR Conditional,MRI safe|MR safe,source
+G-MRCOND,de,Bedingt MR-sicher,MRT-tauglich|MR-sicher ohne Bedingungen,unverified
+G-MRCOND,fr,Compatible IRM sous conditions,Compatible IRM sans restriction|Sûr en IRM,unverified
+G-STENT,en,stent,,source
+G-STENT,de,Stent,Gefäßstütze,unverified
+G-STENT,fr,endoprothèse,ressort,unverified
+G-STORE,en,Store,Keep stored,source
+G-STORE,de,lagern,aufheben,unverified
+G-STORE,fr,Conserver,Garder,unverified

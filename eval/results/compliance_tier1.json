@@ -1,0 +1,197 @@
+{
+ "n_defective": 126,
+ "n_clean": 30,
+ "per_defect": [
+  {
+   "defect": "D01",
+   "expected_rule": "R01",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D02",
+   "expected_rule": "R02",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D03",
+   "expected_rule": "R03",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D04",
+   "expected_rule": "R05",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D05",
+   "expected_rule": "R06",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D06",
+   "expected_rule": "R15",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D07",
+   "expected_rule": "R09",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D08",
+   "expected_rule": "R08",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D09",
+   "expected_rule": "R14",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D10",
+   "expected_rule": "R17",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 0.778
+  },
+  {
+   "defect": "D11",
+   "expected_rule": "R16",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D12",
+   "expected_rule": "R18",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D13",
+   "expected_rule": "R21",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  },
+  {
+   "defect": "D14",
+   "expected_rule": "R04",
+   "n": 9,
+   "detected": 9,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "localised": 1.0
+  }
+ ],
+ "macro_recall": 1.0,
+ "macro_precision": 1.0,
+ "macro_f1": 1.0,
+ "clean_fp_rate": 0.0,
+ "clean_findings_by_rule": {},
+ "confusion": {
+  "D01": {
+   "R01": 9
+  },
+  "D02": {
+   "R02": 9
+  },
+  "D03": {
+   "R03": 9
+  },
+  "D04": {
+   "R05": 9
+  },
+  "D05": {
+   "R06": 9
+  },
+  "D06": {
+   "R15": 9
+  },
+  "D07": {
+   "R09": 9
+  },
+  "D08": {
+   "R08": 9
+  },
+  "D09": {
+   "R14": 9
+  },
+  "D10": {
+   "R17": 9
+  },
+  "D11": {
+   "R16": 9
+  },
+  "D12": {
+   "R18": 9
+  },
+  "D13": {
+   "R21": 9
+  },
+  "D14": {
+   "R04": 9
+  }
+ },
+ "mode": "pdf",
+ "seconds": 17.2
+}

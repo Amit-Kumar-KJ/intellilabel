@@ -1,0 +1,101 @@
+{
+ "vectors": 12,
+ "rows": [
+  {
+   "factor": "safety",
+   "change": "+20%",
+   "switched": 2,
+   "of": 12
+  },
+  {
+   "factor": "safety",
+   "change": "-20%",
+   "switched": 0,
+   "of": 12
+  },
+  {
+   "factor": "device_class",
+   "change": "+20%",
+   "switched": 0,
+   "of": 12
+  },
+  {
+   "factor": "device_class",
+   "change": "-20%",
+   "switched": 2,
+   "of": 12
+  },
+  {
+   "factor": "udi",
+   "change": "+20%",
+   "switched": 1,
+   "of": 12
+  },
+  {
+   "factor": "udi",
+   "change": "-20%",
+   "switched": 0,
+   "of": 12
+  },
+  {
+   "factor": "translation",
+   "change": "+20%",
+   "switched": 0,
+   "of": 12
+  },
+  {
+   "factor": "translation",
+   "change": "-20%",
+   "switched": 1,
+   "of": 12
+  },
+  {
+   "factor": "breadth",
+   "change": "+20%",
+   "switched": 1,
+   "of": 12
+  },
+  {
+   "factor": "breadth",
+   "change": "-20%",
+   "switched": 0,
+   "of": 12
+  },
+  {
+   "factor": "markets",
+   "change": "+20%",
+   "switched": 0,
+   "of": 12
+  },
+  {
+   "factor": "markets",
+   "change": "-20%",
+   "switched": 2,
+   "of": 12
+  },
+  {
+   "factor": "symbol",
+   "change": "+20%",
+   "switched": 1,
+   "of": 12
+  },
+  {
+   "factor": "symbol",
+   "change": "-20%",
+   "switched": 0,
+   "of": 12
+  },
+  {
+   "factor": "defect_history",
+   "change": "+20%",
+   "switched": 0,
+   "of": 12
+  },
+  {
+   "factor": "defect_history",
+   "change": "-20%",
+   "switched": 0,
+   "of": 12
+  }
+ ]
+}

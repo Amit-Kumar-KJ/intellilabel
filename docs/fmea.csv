@@ -1,0 +1,11 @@
+process_step,failure_mode,effect,severity,cause,occurrence,current_control,detectability,rpn,proposed_control,new_occurrence,new_detectability,new_rpn,basis
+Artwork update,Wrong or missing UDI (check digit / text vs barcode),Device cannot be traced; recall scope unclear,8,Manual re-keying of GTIN and production identifiers,4,Visual proofreading,6,192,R01-R04 deterministic UDI checks + generated UDI,4,1,32,DRAFT - our estimate; validate in interviews
+Artwork update,Expiry date mismatch between text and barcode,Expired device used or good stock scrapped,9,Shelf-life change applied to text but not barcode,3,Visual proofreading,6,162,Derived dates from one attribute + R03,3,1,27,DRAFT - our estimate
+Artwork update,Missing sterile indication or method,Non-sterile use / regulatory non-conformity,9,Element dropped during layout edit,2,Checklist review,5,90,R09 + template presence,2,2,36,DRAFT - our estimate
+Symbol library,Superseded symbol used,Misinterpretation; audit finding,5,Old artwork reused,4,Designer knowledge,7,140,R15 symbol version check,4,2,40,DRAFT - our estimate
+Translation,Required language missing,Market non-conformity; shipment hold,7,Panel dropped / wrong market template,3,Checklist,5,105,R14 language presence,3,2,42,DRAFT - our estimate
+Translation,Warning text drift (number/negation) in translation,Patient harm through misuse,10,Vendor translation error,3,Native-speaker review (sampled),6,180,Translation validator invariants + R17,3,2,60,DRAFT - our estimate
+Document control,Wrong revision printed,Unapproved content on market,8,Old file sent to printer,3,Print approval,5,120,R18 revision check + release manifest,3,2,48,DRAFT - our estimate
+Artwork update,Unrequested artwork change,Unvalidated content released,7,Designer edits outside the change scope,4,Side-by-side proof,6,168,Diff engine; unexplained changes block approval,4,2,56,DRAFT - our estimate
+Regulatory,Missing authorised representative (EU),EU non-conformity,7,Template for wrong market,2,Checklist,5,70,R06,2,2,28,DRAFT - our estimate
+Approval,Approval of an unverified draft,Defect reaches the market,9,Approver skips checks under time pressure,3,SOP,6,162,Gates enforced in code; signatures bound to artefact hash,3,2,54,DRAFT - our estimate

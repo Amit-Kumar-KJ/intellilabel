@@ -1,0 +1,14 @@
+.env
+data/generated/
+data/intellilabel.db
+data/releases/
+eval/results/*.png
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# local archive
+*.zip

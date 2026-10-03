@@ -1,0 +1,18 @@
+symbol_id,concept,iso_ref,library_version,status,min_height_mm,requires_adjacent_text,glyph_file
+SYM-MFR,manufacturer,ISO 15223-1 5.1.1 (verify),v2,current,4,manufacturer_name_address,mfr_v2.png
+SYM-MFGDATE,date_of_manufacture,ISO 15223-1 5.1.3 (verify),v2,current,4,mfg_date,mfgdate_v2.png
+SYM-EXP,use_by_date,ISO 15223-1 5.1.4 (verify),v2,current,4,expiry_date,exp_v2.png
+SYM-LOT,batch_code,ISO 15223-1 5.1.5 (verify),v2,current,4,lot,lot_v2.png
+SYM-REF,catalogue_number,ISO 15223-1 5.1.6 (verify),v2,current,4,model,ref_v2.png
+SYM-ECREP,authorized_representative_eu,ISO 15223-1 5.1.2 (verify),v2,current,4,authorised_rep,ecrep_v2.png
+SYM-IMPORTER,importer,ISO 15223-1 5.1.8 (verify),v2,current,4,importer,importer_v2.png
+SYM-STE-EO,sterilized_ethylene_oxide,ISO 15223-1 5.2.3 (verify),v2,current,4,,ste_eo_v2.png
+SYM-DAMAGED,do_not_use_if_package_damaged,ISO 15223-1 5.2.8 (verify),v2,current,4,,damaged_v2.png
+SYM-NOREUSE,do_not_reuse,ISO 15223-1 5.4.2 (verify),v2,current,4,,noreuse_v2.png
+SYM-IFU,consult_instructions_for_use,ISO 15223-1 5.4.3 (verify),v2,current,4,,ifu_v2.png
+SYM-MD,medical_device,ISO 15223-1 5.7.7 (verify),v2,current,4,,md_v2.png
+SYM-UDI,unique_device_identifier,ISO 15223-1 5.7.10 (verify),v2,current,4,,udi_v2.png
+SYM-MRCOND,mr_conditional,ASTM F2503 (verify),v2,current,5,,mrcond_v2.png
+SYM-CE,ce_marking,MDR Art. 20 / Annex V (verify),v2,current,5,notified_body_number,ce_v2.png
+SYM-EXP-OLD,use_by_date,ISO 15223-1 5.1.4 (verify),v1,superseded,4,expiry_date,exp_v1.png
+SYM-STE-EO-OLD,sterilized_ethylene_oxide,ISO 15223-1 5.2.3 (verify),v1,superseded,4,,ste_eo_v1.png

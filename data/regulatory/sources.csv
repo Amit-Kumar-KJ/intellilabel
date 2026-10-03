@@ -1,0 +1,9 @@
+source_id,title,url,retrieved_on,local_file,notes
+SRC-01,21 CFR Part 801 Labeling,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-801,,,Download and save PDF to sources/ with date in file name
+SRC-02,21 CFR Part 830 Unique Device Identification,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-830,,,
+SRC-03,FDA UDI Basics,https://www.fda.gov/medical-devices/unique-device-identification-system-udi-system/udi-basics,,,
+SRC-04,EU MDR 2017/745 consolidated,https://eur-lex.europa.eu/eli/reg/2017/745/oj,,,Annex I Chapter III Section 23; Art. 10; Art. 13; Art. 20; Art. 27; Annex VI
+SRC-05,IMDRF labelling principles,https://www.imdrf.org/documents,,,Check current edition
+SRC-06,GS1 General Specifications,https://www.gs1.org/standards/barcodes-epcrfid-id-keys/gs1-general-specifications,,,AIs (01) (10) (11) (17) (21); check digit; restricted circulation prefixes
+SRC-07,ISO 15223-1 (public summary only),https://www.iso.org/standard/77326.html,,,Paid standard: do not copy
+SRC-08,AccessGUDID,https://accessgudid.nlm.nih.gov/,,,Extract for Phase 3 / Phase 13 real-data check

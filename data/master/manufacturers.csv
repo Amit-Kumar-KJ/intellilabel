@@ -1,0 +1,2 @@
+manufacturer_id,name,address,country,outside_eu,eu_auth_rep_name,eu_auth_rep_address,eu_importer_name,eu_importer_address
+M-01,Meridian Vascular Inc. (fictional),"1200 Example Parkway, Austin, TX 78701, USA",US,true,EuroRep MedTech GmbH (fictional),"Musterstrasse 1, 10115 Berlin, Germany",MedImport Europe B.V. (fictional),"Voorbeeldstraat 10, 1011 AB Amsterdam, Netherlands"

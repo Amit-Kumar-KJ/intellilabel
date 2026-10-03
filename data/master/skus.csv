@@ -1,0 +1,4 @@
+sku_id,product_id,model,diameter_mm,length_mm,revision
+CS-100,P-CS,CS-100,2.5,18,R02
+CS-200,P-CS,CS-200,3.0,18,R02
+CS-300,P-CS,CS-300,3.5,18,R02

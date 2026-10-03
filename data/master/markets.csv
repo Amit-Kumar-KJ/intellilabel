@@ -1,0 +1,5 @@
+market,regulator,languages,date_format,packaging_levels,active,notes
+US,FDA,en,YYYY-MM-DD,pouch|carton|shipper,true,21 CFR 801.18 date format (verify)
+EU,European Commission / Notified Bodies,en|de|fr,YYYY-MM-DD,pouch|carton|shipper,true,Language set is a prototype simplification: real set depends on Member States of sale (MDR Art. 10(11))
+JP,PMDA / MHLW,ja,YYYY-MM-DD,pouch|carton|shipper,false,Planned: needs Noto Sans CJK and verified JP requirement rows
+CN,NMPA,zh,YYYY-MM-DD,pouch|carton|shipper,false,Planned: needs Noto Sans CJK and verified CN requirement rows

@@ -1,0 +1,29 @@
+{
+ "rows": [
+  {
+   "degradation": "none",
+   "labels": 8,
+   "recall": 0.875,
+   "sec_per_label": 7.1
+  },
+  {
+   "degradation": "blur",
+   "labels": 8,
+   "recall": 0.875,
+   "sec_per_label": 7.2
+  },
+  {
+   "degradation": "noise_jpeg",
+   "labels": 8,
+   "recall": 0.875,
+   "sec_per_label": 6.7
+  },
+  {
+   "degradation": "rotate",
+   "labels": 8,
+   "recall": 0.875,
+   "sec_per_label": 6.2
+  }
+ ],
+ "note": "Raster path: Tesseract OCR + multi-scale template matching + Data Matrix decode; same defect labels, degraded images."
+}

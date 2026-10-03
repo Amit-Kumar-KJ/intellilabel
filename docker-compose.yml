@@ -1,0 +1,24 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: intellilabel
+      POSTGRES_PASSWORD: intellilabel
+      POSTGRES_DB: intellilabel
+    ports: ["5432:5432"]
+  api:
+    build: .
+    command: python -m uvicorn api.main:app --host 0.0.0.0 --port 8000
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://intellilabel:intellilabel@db:5432/intellilabel
+    ports: ["8000:8000"]
+    depends_on: [db]
+  app:
+    build: .
+    command: python -m streamlit run app/Home.py --server.port 8501 --server.address 0.0.0.0
+    env_file: .env
+    environment:
+      API_URL: http://api:8000
+    ports: ["8501:8501"]
+    depends_on: [api]

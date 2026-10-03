@@ -1,0 +1,35 @@
+{
+ "pairs": 13,
+ "seeded_edits": 37,
+ "detection_rate": 1.0,
+ "classification_rate": 1.0,
+ "mean_localisation_iou": 0.711,
+ "noise_only_pairs": 3,
+ "noise_false_alarms": 0,
+ "by_type": [
+  {
+   "type": "barcode_change",
+   "n": 6,
+   "detected": 6,
+   "classified": 6
+  },
+  {
+   "type": "element_added",
+   "n": 7,
+   "detected": 7,
+   "classified": 7
+  },
+  {
+   "type": "layout_move",
+   "n": 5,
+   "detected": 5,
+   "classified": 5
+  },
+  {
+   "type": "text_change",
+   "n": 19,
+   "detected": 19,
+   "classified": 19
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "requirement_id": "REQ-EU-030",
+  "market": "EU",
+  "regulation": "MDR 2017/745",
+  "section": "Annex I 23.2(q) (verify)",
+  "label_element": "md_symbol",
+  "requirement_text": "An indication that the device is a medical device",
+  "obligation": "mandatory",
+  "applies_if": "all",
+  "packaging_levels": "pouch|carton",
+  "rule_id": "R20",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2017/745/oj",
+  "retrieved_on": "",
+  "verified_by": "UNVERIFIED"
+}
