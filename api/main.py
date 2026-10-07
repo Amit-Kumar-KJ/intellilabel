@@ -225,24 +225,6 @@ def label_file(label_id: str, kind: Literal["pdf", "png", "report", "overlay"]):
     return FileResponse(absolute(p))
 
 
-@app.post("/labels/{label_id}/validate", tags=["labels"])
-def validate(label_id: str, user: str = "system") -> dict:
-    with session_scope() as s:
-        return S.validate_label(s, label_id, user=user)
-
-
-@app.post("/labels/{label_id}/diff", tags=["labels"])
-def diff(label_id: str, user: str = "system") -> dict:
-    with session_scope() as s:
-        return S.diff_label(s, label_id, user=user)
-
-
-@app.post("/labels/{label_id}/diff/review", tags=["labels"])
-def review_change(label_id: str, body: ChangeReviewIn) -> dict:
-    with session_scope() as s:
-        return W.review_change(s, label_id, body.index, body.decision, body.user, body.note)
-
-
 @app.post("/labels/upload/validate", tags=["labels"])
 def upload_validate(file: UploadFile = File(...), sku_id: str = Form("CS-100"), market: str = Form("EU"),
                     packaging_level: str = Form("carton"), revision: str = Form("R02"),
@@ -268,6 +250,24 @@ def upload_validate(file: UploadFile = File(...), sku_id: str = Form("CS-100"), 
                         "elements": {k: v for k, v in model["elements"].items() if isinstance(v, dict)},
                         "barcodes": model["barcodes"], "symbols": model["symbols"]}
     return rep
+
+
+@app.post("/labels/{label_id}/validate", tags=["labels"])
+def validate(label_id: str, user: str = "system") -> dict:
+    with session_scope() as s:
+        return S.validate_label(s, label_id, user=user)
+
+
+@app.post("/labels/{label_id}/diff", tags=["labels"])
+def diff(label_id: str, user: str = "system") -> dict:
+    with session_scope() as s:
+        return S.diff_label(s, label_id, user=user)
+
+
+@app.post("/labels/{label_id}/diff/review", tags=["labels"])
+def review_change(label_id: str, body: ChangeReviewIn) -> dict:
+    with session_scope() as s:
+        return W.review_change(s, label_id, body.index, body.decision, body.user, body.note)
 
 
 @app.post("/translations/check", tags=["translations"])
