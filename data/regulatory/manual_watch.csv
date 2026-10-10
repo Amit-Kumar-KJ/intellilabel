@@ -1,0 +1,9 @@
+source_id,name,market,url,reason
+fda_labeling,FDA general device labeling,US,https://www.fda.gov/medical-devices/device-labeling/general-device-labeling-requirements,FDA bot protection blocks scripts; covered automatically by ecfr_801
+fda_udi,FDA UDI guidance (21 CFR Part 830),US,https://www.fda.gov/regulatory-information/search-fda-guidance-documents/unique-device-identification-system-form-and-content-unique-device-identifier-udi,FDA bot protection blocks scripts; covered automatically by ecfr_830
+iso_20417,ISO 20417 Information supplied by manufacturer,GLOBAL,https://www.iso.org/standard/88714.html,ISO blocks automated access (HTTP 403); check edition and status by hand
+iso_15223,ISO 15223-1 Symbols used with medical devices,GLOBAL,https://www.iso.org/standard/77326.html,ISO blocks automated access (HTTP 403); check edition and status by hand
+imdrf_n52,IMDRF N52 Principles of Labelling,GLOBAL,https://www.imdrf.org/documents/principles-labelling-medical-devices-and-ivd-medical-devices,Site disallows automated access; check by hand
+fda_gudid,FDA AccessGUDID Database API,US,https://accessgudid.nlm.nih.gov/resources/developers,Link returns 404; needs the correct developer page
+pmda_japan,Japan PMDA Device Regulations,JP,https://www.pmda.go.jp/english/rs-sb-std/standards-development/cross-sectional/0012.html,Link returns 404; needs the correct English PMDA page
+eu_mdr,EU MDR 2017/745 (2023 consolidated version),EU,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R0745-20230320,EUR-Lex returned the full text once then a short page (likely bot protection); this version is frozen so it would never show a change; check for new consolidated versions by hand
