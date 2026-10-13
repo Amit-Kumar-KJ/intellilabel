@@ -22,3 +22,5 @@ httpx>=0.27
 # Optional (Phase 11 semantic similarity / retrieval) - install with `make setup-ai`
 # sentence-transformers
 # chromadb
+
+setuptools
