@@ -1,0 +1,6 @@
+source_id,name,market,url,ignore_regex
+ec_udi,European Commission UDI page,EU,https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en,
+ecfr_801,21 CFR Part 801 labeling (eCFR amendment log),US,https://www.ecfr.gov/api/versioner/v1/versions/title-21.json?part=801,
+ecfr_830,21 CFR Part 830 UDI (eCFR amendment log),US,https://www.ecfr.gov/api/versioner/v1/versions/title-21.json?part=830,
+ec_mdcg_guidance,European Commission MDCG guidance documents,EU,https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en,
+ec_mdr_news,European Commission medical devices new regulations and updates,EU,https://health.ec.europa.eu/medical-devices-new-regulations_en,
