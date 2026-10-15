@@ -22,12 +22,25 @@ from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen import canvas
 
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
 from core import gs1
 from core import master as M
 from core.config import DPI, SEED, SYMBOL_DIR, TEMPLATE_DIR
 
 PT_MM = 25.4 / 72.0
 DEFAULT_MFG_DATE = "2026-09-15"
+
+FONT_DIR = Path(__file__).resolve().parents[1] / "assets" / "fonts"
+
+if "IntelliLabel-DejaVu" not in pdfmetrics.getRegisteredFontNames():
+    pdfmetrics.registerFont(
+        TTFont("IntelliLabel-DejaVu", str(FONT_DIR / "DejaVuSans.ttf"))
+    )
+    pdfmetrics.registerFont(
+        TTFont("IntelliLabel-DejaVu-Bold", str(FONT_DIR / "DejaVuSans-Bold.ttf"))
+    )
 
 
 # ---------------------------------------------------------------- helpers
@@ -71,7 +84,7 @@ def eval_condition(expr: str | None, ctx: dict, active_reqs: set[str]) -> bool:
 
 
 def font_name(bold: bool) -> str:
-    return "Helvetica-Bold" if bold else "Helvetica"
+    return "IntelliLabel-DejaVu-Bold" if bold else "IntelliLabel-DejaVu"
 
 
 def wrap(text: str, width_mm: float, size_pt: float, bold=False) -> list[str]:
