@@ -58,7 +58,8 @@ Legend: [x] done and tested · [~] partly done · [ ] team task
       downloaded regulation texts (needs the source PDFs), 40 hand-labelled pairs for the semantic check
 
 ## Phase 12 - API + UI
-- [x] All endpoints with Pydantic models (`/docs`); 9 Streamlit pages; status colours; friendly errors; Reset demo
+- [x] All endpoints with Pydantic models (`/docs`); 10 Streamlit pages (incl. Regulatory Watch); status colours; friendly errors; Reset demo
+- [x] Regulatory change monitor merged (`engines/reg_monitor.py`, page 10 Regulatory Watch): detects changes on 5 watched sources, creates pending proposals, human approval required, hand-off to Scenario B; not yet validated live end to end
 - [ ] A teammate runs both scenarios from the UI without help
 
 ## Phase 13 - evaluation

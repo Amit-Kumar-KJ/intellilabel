@@ -59,7 +59,7 @@ Demo password for e-signatures: `intellilabel`.
 | 9 Workflow, ledger, trace, release | `core/workflow.py`, `core/audit.py`, `core/services.py` | done |
 | 10 Risk scoring | `core/risk.py` | done (weights to be tied to FMEA) |
 | 11 AI depth | gateway contract, semantic check, translation validator | done; LaBSE similarity + RAG "Why?" optional |
-| 12 API + UI | `api/main.py`, `app/` (9 pages) | done |
+| 12 API + UI | `api/main.py`, `app/` (10 pages) | done |
 | 13 Evaluation | `eval/run_benchmark.py` | Tier 1 + robustness done; Tier 2/3 + timing study: team |
 | 14 Case artefacts | `docs/` | starters; interviews, VSM, maps, business case: team |
 | 15 Deck, demo | `docs/demo_script.md`, `docs/qa_prep.md` | script ready; deck: team |

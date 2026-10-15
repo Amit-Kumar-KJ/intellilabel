@@ -48,7 +48,7 @@ Status key: Covered = built and tested in the prototype; Partly = built in part 
 | # | Pain point named in the brief | Our answer | Where | Status |
 |---|---|---|---|---|
 | 1 | Time-consuming manual process | Impact analysis, drafting and checking run automatically; people confirm and sign | `engines/impact.py`, `engines/compliance.py` | Partly: time saving not yet measured (timing study pending) |
-| 2 | Frequent regulatory updates | New requirement entered as a regulatory change request; generic rule R20 enforces it without new code (Scenario B) | `data/regulatory/requirements.csv`, `engines/rules/presence.py` | Partly: automatic source monitoring is an open pull request, not merged |
+| 2 | Frequent regulatory updates | New requirement entered as a regulatory change request; generic rule R20 enforces it without new code (Scenario B) | `data/regulatory/requirements.csv`, `engines/rules/presence.py`, `engines/reg_monitor.py`, `data/regulatory/watchlist.csv` | Yes, prototype: monitor detects changes on 5 sources and raises human-approved proposals; not yet validated live end to end. Blocked sources are on a manual watch list |
 | 3 | Symbol management | Versioned symbol library, current-version check, size and overlap check, market-specific templates | `data/regulatory/symbols.csv`, rules R15, R16 | Covered (prototype uses simplified symbols, not the licensed ISO 15223-1 set) |
 | 4 | Multiple sources of truth | One master data set feeds every label | `data/master/`, `core/master.py` | Partly: no live PLM or ERP connection |
 | 5 | Expertise dependency | Expert checks written as 21 rules; each finding gives clause, evidence box and explanation | `engines/rules/`, `engines/compliance.py` | Covered |
@@ -100,7 +100,7 @@ Status key: Covered = built and tested in the prototype; Partly = built in part 
 
 | Stakeholder | Role in the brief | In IntelliLabel |
 |---|---|---|
-| Regulatory Affairs | Compliance management and change impact assessment | Signing roles `regulatory_affairs` and `regulatory_affairs_2`; Regulatory tab in Change Intake; Impact page |
+| Regulatory Affairs | Compliance management and change impact assessment | Signing roles `regulatory_affairs` and `regulatory_affairs_2`; Regulatory tab in Change Intake; Impact page; Regulatory Watch page (reviews monitor proposals) |
 | Product Owner(s) | Own product changes | Raise a change request in Change Intake |
 | Labeling Engineers | Create and maintain labels | Signing role `labeling_engineer`; Drafts and Redline page |
 | Quality Assurance | Verification and validation | Signing role `quality_assurance`; Compliance Report page |
@@ -132,3 +132,4 @@ No interviews are recorded yet. Update this table as calls are booked. Question 
 | Date | Change | By |
 |---|---|---|
 | 2026-10-15 | Completed from the official brief: summary, criteria, must-address checklist, method status, boundaries, stakeholders, open questions | Amit |
+| 2026-10-15 | Regulatory change monitor merged into main (PR #3): must-address row 2, Regulatory Affairs stakeholder row updated | Amit |
