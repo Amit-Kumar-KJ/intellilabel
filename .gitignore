@@ -14,3 +14,6 @@ venv/
 *.zip
 
 data/regulatory/monitor/
+
+# test database
+data/test_intellilabel.db
