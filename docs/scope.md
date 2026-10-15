@@ -111,13 +111,21 @@ Status key: Covered = built and tested in the prototype; Partly = built in part 
 
 ## 9. Interviews
 
-No interviews are recorded yet. Update this table as calls are booked. Question list: `docs/interview_script.md`.
+Two written interviews are recorded (anonymised). Update this table as calls are booked. Question list: `docs/interview_script.md`.
 
 | # | Who (role, org type) | Booked for | Done | Notes file |
 |---|---|---|---|---|
-| 1 | Regulatory affairs, labeling or QA professional at a device manufacturer (target) | To book | [ ] | docs/interviews/01.md |
-| 2 | Regulatory or quality consultant, or a labeling or artwork specialist (target) | To book | [ ] | docs/interviews/02.md |
+| 1 | Labeling or regulatory practitioner at a device organisation | 2026-10-15 (chat) | [x] | docs/interviews/01.md |
+| 2 | Quality professional at a device organisation, outside the labeling section | 2026-10-15 (chat) | [x] | docs/interviews/02.md |
 | 3 | Hospital biomedical engineer, or NIT Raipur alumnus in the industry (target) | To book | [ ] | docs/interviews/03.md |
+
+### What the interviews found so far (n=2, estimates)
+
+- Cycle time: about 3 months (interview 1) and 3 to 4 months (interview 2).
+- Longest waits: change impact assessment and stakeholder or quality approvals.
+- Regulation tracking: manual, through regulatory teams, manager email subscriptions and gap assessments.
+- Review effort: self, peer, proofreader and stakeholder reviews, about 20 minutes per label per review (interview 1).
+- Limits: two people, one outside the labeling section, no label counts or error rates.
 
 ## 10. Open questions for the organisers
 
@@ -133,3 +141,4 @@ No interviews are recorded yet. Update this table as calls are booked. Question 
 |---|---|---|
 | 2026-10-15 | Completed from the official brief: summary, criteria, must-address checklist, method status, boundaries, stakeholders, open questions | Amit |
 | 2026-10-15 | Regulatory change monitor merged into main (PR #3): must-address row 2, Regulatory Affairs stakeholder row updated | Amit |
+| 2026-10-15 | Recorded two anonymised interviews (docs/interviews/01.md, 02.md) and summarised findings in section 9 | Amit |

@@ -18,7 +18,7 @@ Every number shown in the deck or the app goes here with its basis. "Measured" n
 | A11 | 10/10 | ledger tamper detection | measured | eval/results/ledger_results.json | Amit |
 | A12 | see file | robustness recall on degraded images | measured, 8 labels x 4 conditions | eval/results/robustness.json | Amit |
 | A13 | 0.30/0.15/0.10/0.10/0.10/0.10/0.05/0.10 | risk weights | guide defaults - replace with FMEA-derived values | docs/risk_weights.md | Amit |
-| A14 | TODO | minutes to review one label variant manually | interviewee estimate | docs/interviews/ | Amit |
+| A14 | 20 | minutes per label per review stage (self, peer, proofreader, stakeholder); total per label depends on stages | interviewee estimate, n=1 | docs/interviews/01.md | Amit |
 | A15 | TODO | label variants touched by a typical change | interviewee estimate | docs/interviews/ | Amit |
-| A16 | TODO | change cycle time (days) | interviewee estimate / problem statement | | Amit |
+| A16 | 90-120 | change cycle time (days): about 3 months and 3-4 months | interviewee estimates, n=2 | docs/interviews/01.md, 02.md | Amit |
 | A17 | TODO | cost of a labeling recall / rework | published source (verify) | | Amit |

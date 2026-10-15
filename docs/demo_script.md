@@ -4,7 +4,7 @@ Before every run: sidebar -> **Reset demo**. Keep `LLM_MODE=cached` (have `off` 
 
 | Minute | Page | What you do | What the judge should conclude |
 |---|---|---|---|
-| 0-1 | Dashboard | Variant count, one interview quote | This team talked to practitioners |
+| 0-1 | Dashboard | Variant count, one interview finding (about 3 months per change, manual regulation tracking) | This team talked to practitioners |
 | 1-2 | Change Intake | Type "Extend CardioSafe shelf life to 36 months and update the sterilization wording", Parse, check the table, Confirm | AI helps, a human confirms |
 | 2-3 | Impact | 18 labels, counts by market/level/language, risk bars (High, factor breakdown), approvers. Tick "simulate an artwork slip", Generate drafts | Scoping and drafting are fast and traceable |
 | 3-4 | Drafts and Redline | Run verification. Open the EU carton: overlay with the IFU symbol move in thick red, "UNEXPLAINED". Show an explained change (expiry bound to shelf_life_months). Compliance page: a finding with clause citation, evidence box and Why? | Verification is concrete and explainable |

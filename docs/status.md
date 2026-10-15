@@ -5,7 +5,7 @@ Legend: [x] done and tested · [~] partly done · [ ] team task
 ## Phase 0 - scope
 - [ ] `docs/scope.md`: rounds, formats, dates, judging criteria, must-address checklist (needs the official brief)
 - [x] Hero scenarios fixed
-- [ ] At least 2 interview calls booked (`docs/interview_script.md`)
+- [x] 2 interviews done in writing (`docs/interviews/01.md`, `02.md`); more calls with voice follow-up still wanted
 
 ## Phase 1 - repo
 - [x] Folder structure, Makefile + `run.py`, `.env.example`, docker-compose, CI workflow, pre-commit, .gitignore
@@ -68,7 +68,7 @@ Legend: [x] done and tested · [~] partly done · [ ] team task
 
 ## Phase 14 - case artefacts
 - [~] FMEA starter (`docs/fmea.csv`), AI governance page, assumptions register
-- [ ] Interviews, as-is map, VSM, opportunity matrix, to-be map, business case
+- [~] Interviews (2 written done), as-is map, VSM, opportunity matrix, to-be map, business case
 
 ## Phase 15 - deck and demo
 - [~] Demo script and Q&A sheet
