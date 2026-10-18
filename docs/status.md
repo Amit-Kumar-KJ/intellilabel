@@ -68,7 +68,7 @@ Legend: [x] done and tested · [~] partly done · [ ] team task
 
 ## Phase 14 - case artefacts
 - [~] FMEA starter (`docs/fmea.csv`), AI governance page, assumptions register
-- [x] As-is map, to-be map and opportunity matrix in `docs/maps/` (as-is timings from 2 interviews)
+- [x] As-is map (simple flow and 18-step swimlane by stakeholder), to-be map and opportunity matrix in `docs/maps/` (as-is timings from 2 interviews; lane placement is indicative)
 - [~] Interviews (2 written done); still to do: value stream map with measured waits, business case
 
 ## Phase 15 - deck and demo
